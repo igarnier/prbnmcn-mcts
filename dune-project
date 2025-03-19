@@ -10,5 +10,5 @@
 (package (name prbnmcn-mcts)
   (synopsis "Monte-Carlo tree search based on UCB1 bandits")
   (description "Monte-Carlo tree search based on UCB1 bandits")
-  (depends (prbnmcn-ucb1 (= 0.0.1))))
+  (depends (ocaml (>= 4.14)) (prbnmcn-ucb1 (= 0.0.1))))
 (homepage http://github.com/igarnier/prbnmcn-mcts)
