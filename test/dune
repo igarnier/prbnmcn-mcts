@@ -1,0 +1,8 @@
+(tests
+ (names bintree tictactoe puissance4)
+ (libraries prbnmcn-mcts unix)
+ (ocamlopt_flags (-g)))
+
+(rule (alias buildtest) (deps puissance4.exe) (action (progn)))
+(rule (alias runtest_puissance4) (action (run %{exe:puissance4.exe})))
+(rule (alias runtest) (deps (alias runtest_puissance4)) (action (progn)))

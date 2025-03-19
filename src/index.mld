@@ -1,0 +1,11 @@
+{0 prbnmcn-mcts}
+
+[prbnmcn-mcts] provides a DSL to describe non-deterministic computations and
+perform Monte-Carlo tree search-based selection of choices, guided by a
+reward function.
+
+See the {{!Mcts.introduction}introduction}.
+
+{1:api API}
+
+{!modules: Mcts}

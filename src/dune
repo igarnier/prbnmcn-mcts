@@ -1,0 +1,7 @@
+(library (name mcts) (public_name prbnmcn-mcts) (libraries prbnmcn-ucb1)
+  (ocamlopt_flags (-warn-error -39)))
+
+(documentation
+   (package prbnmcn-mcts)
+   (mld_files index)
+)
